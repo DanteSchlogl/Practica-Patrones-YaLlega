@@ -1,0 +1,27 @@
+# Archivos generados por la compilación
+bin/
+obj/
+
+# Configuración local de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Resultados de ejecución: se generan al correr el programa
+Ordenes/*.log
+Reportes/*.txt
+Verificaciones/
+
+# El ZIP que se arma para compartir y el script que lo genera
+YaLlegaNucleo.zip
+armar_zip.py
+
+# El HTML del diagrama se genera con el script de Diagrama/
+Diagrama/diagrama.html
+
+# Archivos del sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store

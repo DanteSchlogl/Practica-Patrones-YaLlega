@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>YaLlegaNucleo.Negocio</RootNamespace>
+    <AssemblyName>YaLlegaNucleo.Negocio</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YaLlegaNucleo.Modelo\YaLlegaNucleo.Modelo.csproj" />
+    <ProjectReference Include="..\YaLlegaNucleo.Datos\YaLlegaNucleo.Datos.csproj" />
+  </ItemGroup>
+
+</Project>

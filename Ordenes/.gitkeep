@@ -1,0 +1,4 @@
+Acá se guarda una línea por cada orden terminada.
+
+El archivo se llama ordenes.log y se genera al ejecutar el programa.
+Los .log no se versionan (ver .gitignore) porque son resultado de la ejecución.

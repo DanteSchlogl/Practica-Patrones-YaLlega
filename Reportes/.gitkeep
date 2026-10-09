@@ -1,0 +1,4 @@
+Acá se exportan los listados que pide el área de marketing.
+
+El programa genera un archivo por listado (artículos, clientes, órdenes)
+usando la misma rutina de exportación.

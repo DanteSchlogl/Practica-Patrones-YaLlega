@@ -1,0 +1,6 @@
+# Normalización de finales de línea (evita que Git avise por LF/CRLF)
+* text=auto
+
+# Archivos de Visual Studio: se mantienen con CRLF
+*.sln text eol=crlf
+*.csproj text eol=crlf
