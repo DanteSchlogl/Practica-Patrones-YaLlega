@@ -19,7 +19,6 @@ internal static class Programa
         Console.WriteLine("FACULTAD DE TECNOLOGIA INFORMATICA");
         Console.WriteLine("Ingenieria en Sistemas - Practica de parcial");
         Console.WriteLine("YaLlega S.A. - Nucleo de la plataforma de pedidos y entregas");
-        Console.WriteLine("Alumno: Dante Schlogl");
         Console.WriteLine();
 
         CatalogoDeCartas catalogo = Ejemplos.ArmarCatalogo();

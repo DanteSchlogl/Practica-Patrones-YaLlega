@@ -326,7 +326,7 @@ def main():
 <div class="sub">Nucleo de la plataforma de pedidos y entregas &mdash; arquitectura de 4 capas</div>
 <div class="datos">
   Facultad de Tecnologia Informatica &middot; Ingenieria en Sistemas &middot;
-  Practica de parcial &middot; Alumno: Dante Schlogl<br>
+  Practica de parcial<br>
   Patrones usados: <b>Strategy</b> (costo de envio) &middot;
   <b>Proxy</b> (cache de las ultimas 5 cartas) &middot;
   <b>Chain of Responsibility</b> (revision por plan) &middot;
