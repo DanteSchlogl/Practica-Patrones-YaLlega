@@ -14,7 +14,6 @@ public class ArchivoDeOrdenes : IArchivoDeOrdenes
     private readonly List<OrdenRegistrada> _guardadas = new List<OrdenRegistrada>();
 
     // Para que dos escrituras al mismo tiempo no rompan el archivo.
-    private readonly object _turno = new object();
 
     public ArchivoDeOrdenes(string carpeta)
     {
@@ -35,11 +34,8 @@ public class ArchivoDeOrdenes : IArchivoDeOrdenes
 
         try
         {
-            lock (_turno)
-            {
-                Directory.CreateDirectory(Carpeta);
-                File.AppendAllText(Ruta, linea);
-            }
+            Directory.CreateDirectory(Carpeta);
+            File.AppendAllText(Ruta, linea);
 
             _guardadas.Add(orden);
         }
